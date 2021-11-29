@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>626214df-947f-458b-ad55-1cce61e19466</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc" Version="5.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1-Application\FIAP.Fase6.Application\FIAP.Fase6.Application.csproj" />
+    <ProjectReference Include="..\..\..\3-Infra\3.1-Data\FIAP.Fase6.Infra.Data\FIAP.Fase6.Infra.Data.csproj" />
+    <ProjectReference Include="..\..\..\3-Infra\3.2-CrossCutting\FIAP.Fase6.Infra.CrossCutting.IoC\FIAP.Fase6.Infra.CrossCutting.IoC.csproj" />
+  </ItemGroup>
+
+
+</Project>

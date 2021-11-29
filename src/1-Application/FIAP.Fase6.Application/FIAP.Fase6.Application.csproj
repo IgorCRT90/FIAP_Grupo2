@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2-Domain\FIAP.Fase6.Domain\FIAP.Fase6.Domain.csproj" />
+    <ProjectReference Include="..\..\3-Infra\3.0-Core\FIAP.Fase6.Core\FIAP.Fase6.Core.csproj" />
+  </ItemGroup>
+
+</Project>

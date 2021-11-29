@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\1-Application\\FIAP.Fase6.Application\\FIAP.Fase6.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\1-Application\\FIAP.Fase6.Application\\FIAP.Fase6.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\1-Application\\FIAP.Fase6.Application\\FIAP.Fase6.Application.csproj",
+        "projectName": "FIAP.Fase6.Application",
+        "projectPath": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\1-Application\\FIAP.Fase6.Application\\FIAP.Fase6.Application.csproj",
+        "packagesPath": "C:\\Users\\raole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\1-Application\\FIAP.Fase6.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\raole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\2-Domain\\FIAP.Fase6.Domain\\FIAP.Fase6.Domain.csproj": {
+                "projectPath": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\2-Domain\\FIAP.Fase6.Domain\\FIAP.Fase6.Domain.csproj"
+              },
+              "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\3-Infra\\3.0-Core\\FIAP.Fase6.Core\\FIAP.Fase6.Core.csproj": {
+                "projectPath": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\3-Infra\\3.0-Core\\FIAP.Fase6.Core\\FIAP.Fase6.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\2-Domain\\FIAP.Fase6.Domain\\FIAP.Fase6.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\2-Domain\\FIAP.Fase6.Domain\\FIAP.Fase6.Domain.csproj",
+        "projectName": "FIAP.Fase6.Domain",
+        "projectPath": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\2-Domain\\FIAP.Fase6.Domain\\FIAP.Fase6.Domain.csproj",
+        "packagesPath": "C:\\Users\\raole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\2-Domain\\FIAP.Fase6.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\raole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\3-Infra\\3.0-Core\\FIAP.Fase6.Core\\FIAP.Fase6.Core.csproj": {
+                "projectPath": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\3-Infra\\3.0-Core\\FIAP.Fase6.Core\\FIAP.Fase6.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\3-Infra\\3.0-Core\\FIAP.Fase6.Core\\FIAP.Fase6.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\3-Infra\\3.0-Core\\FIAP.Fase6.Core\\FIAP.Fase6.Core.csproj",
+        "projectName": "FIAP.Fase6.Core",
+        "projectPath": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\3-Infra\\3.0-Core\\FIAP.Fase6.Core\\FIAP.Fase6.Core.csproj",
+        "packagesPath": "C:\\Users\\raole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raole\\Desktop\\DOCUMENTOS MBA\\_Code\\Fase6\\FIAP.Fase6\\src\\3-Infra\\3.0-Core\\FIAP.Fase6.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\raole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
